@@ -3,11 +3,11 @@
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --color-brand-main: #881337;
-  --color-brand-accent: #fbbf24;
-  --color-dark-bg: #0c0205;
-  --color-glass-bg: rgba(12, 2, 5, 0.75);
-  --color-glass-border: rgba(255, 255, 255, 0.08);
+  --color-brand-blue: #0ea5e9;
+  --color-brand-gold: #eab308;
+  --color-dark-bg: #030712;
+  --color-glass-bg: rgba(17, 24, 39, 0.7);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
 }
 
 @layer base {
@@ -22,8 +22,8 @@
   border: 1px solid var(--color-glass-border);
 }
 
-.glow-main {
-  box-shadow: 0 0 20px rgba(136, 19, 55, 0.4);
+.glow-blue {
+  box-shadow: 0 0 20px rgba(14, 165, 233, 0.3);
 }
 
 @keyframes pulse-soft {

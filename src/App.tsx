@@ -55,7 +55,7 @@ Interesse: ${formData.interest}`;
               required
               type="text" 
               placeholder="Ex: João Silva" 
-              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 text-white focus:outline-none focus:ring-2 focus:ring-brand-main transition-all" 
+              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 text-white focus:outline-none focus:ring-2 focus:ring-brand-blue transition-all" 
               value={formData.name}
               onChange={(e) => setFormData({...formData, name: e.target.value})}
             />
@@ -66,7 +66,7 @@ Interesse: ${formData.interest}`;
               required
               type="email" 
               placeholder="nome@suaempresa.com" 
-              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 text-white focus:outline-none focus:ring-2 focus:ring-brand-main transition-all" 
+              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 text-white focus:outline-none focus:ring-2 focus:ring-brand-blue transition-all" 
               value={formData.email}
               onChange={(e) => setFormData({...formData, email: e.target.value})}
             />
@@ -77,7 +77,7 @@ Interesse: ${formData.interest}`;
               required
               type="tel" 
               placeholder="(11) 99999-9999" 
-              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 text-white focus:outline-none focus:ring-2 focus:ring-brand-main transition-all" 
+              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 text-white focus:outline-none focus:ring-2 focus:ring-brand-blue transition-all" 
               value={formData.phone}
               onChange={(e) => setFormData({...formData, phone: e.target.value})}
             />
@@ -86,7 +86,7 @@ Interesse: ${formData.interest}`;
             <label className="text-xs font-bold text-gray-500 uppercase ml-1">O que você deseja proteger?</label>
             <div className="relative">
               <select 
-                className="w-full bg-[#110101] border border-white/10 rounded-xl px-4 py-4 text-white focus:outline-none focus:ring-2 focus:ring-brand-main transition-all appearance-none cursor-pointer"
+                className="w-full bg-dark-bg border border-white/10 rounded-xl px-4 py-4 text-white focus:outline-none focus:ring-2 focus:ring-brand-blue transition-all appearance-none cursor-pointer"
                 value={formData.interest}
                 onChange={(e) => setFormData({...formData, interest: e.target.value})}
               >
@@ -103,7 +103,7 @@ Interesse: ${formData.interest}`;
         </div>
         <button 
           type="submit"
-          className="w-full bg-brand-main hover:bg-brand-main/90 text-white py-5 rounded-2xl font-black text-xl transition-all glow-main flex items-center justify-center gap-2 mt-4"
+          className="w-full bg-brand-blue hover:bg-brand-blue/90 text-white py-5 rounded-2xl font-black text-xl transition-all glow-blue flex items-center justify-center gap-2 mt-4"
         >
           Falar com um Especialista Agora
           <MousePointer2 size={24} />
@@ -129,13 +129,13 @@ Interesse: ${formData.interest}`;
   };
 
   return (
-    <div className="min-h-screen bg-dark-bg selection:bg-brand-main/30 overflow-x-hidden">
+    <div className="min-h-screen bg-dark-bg selection:bg-brand-blue/30 overflow-x-hidden">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 glass">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center space-x-2">
-              <div className="bg-brand-main p-2 rounded-lg">
+              <div className="bg-brand-blue p-2 rounded-lg">
                 <ShieldCheck className="text-white w-6 h-6" />
               </div>
               <span className="text-2xl font-extrabold tracking-tighter text-white">
@@ -145,14 +145,14 @@ Interesse: ${formData.interest}`;
             
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-10">
-              <a href="#services" className="text-sm font-medium text-gray-300 hover:text-brand-accent transition-colors">Serviços</a>
-              <a href="#proof" className="text-sm font-medium text-gray-300 hover:text-brand-accent transition-colors">Segurança</a>
-              <a href="#contact" className="text-sm font-medium text-gray-300 hover:text-brand-accent transition-colors">Contato</a>
+              <a href="#services" className="text-sm font-medium text-gray-300 hover:text-brand-gold transition-colors">Serviços</a>
+              <a href="#proof" className="text-sm font-medium text-gray-300 hover:text-brand-gold transition-colors">Segurança</a>
+              <a href="#contact" className="text-sm font-medium text-gray-300 hover:text-brand-gold transition-colors">Contato</a>
               <a 
                 href="https://wa.me/5511937201963?text=Vim%20pelo%20site%20e%20tenho%20uma%20d%C3%BAvida" 
                 target="_blank" 
                 rel="noreferrer"
-                className="bg-brand-main hover:bg-brand-main/90 text-white px-6 py-2.5 rounded-full font-bold text-sm transition-all glow-main flex items-center gap-2"
+                className="bg-brand-blue hover:bg-brand-blue/90 text-white px-6 py-2.5 rounded-full font-bold text-sm transition-all glow-blue flex items-center gap-2"
               >
                 Proteger Minha Ideia Agora
                 <ArrowRight className="w-4 h-4" />
@@ -182,7 +182,7 @@ Interesse: ${formData.interest}`;
               href="https://wa.me/5511937201963?text=Vim%20pelo%20site%20e%20tenho%20uma%20d%C3%BAvida" 
               target="_blank" 
               rel="noreferrer"
-              className="w-full bg-brand-main text-white py-4 rounded-xl font-bold text-center block"
+              className="w-full bg-brand-blue text-white py-4 rounded-xl font-bold text-center block"
             >
               Proteger Minha Ideia Agora
             </a>
@@ -193,7 +193,7 @@ Interesse: ${formData.interest}`;
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 relative overflow-hidden">
         {/* Abstract background blobs */}
-        <div className="absolute top-1/4 -left-20 w-96 h-96 bg-brand-main/10 rounded-full blur-[120px] pointer-events-none"></div>
+        <div className="absolute top-1/4 -left-20 w-96 h-96 bg-brand-blue/10 rounded-full blur-[120px] pointer-events-none"></div>
         <div className="absolute top-1/3 -right-20 w-80 h-80 bg-brand-gold/10 rounded-full blur-[100px] pointer-events-none"></div>
 
         <div className="max-w-7xl mx-auto text-center relative z-10">
@@ -202,11 +202,11 @@ Interesse: ${formData.interest}`;
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-main/10 border border-brand-main/20 text-brand-main text-xs font-bold uppercase tracking-widest mb-8">
+            <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-blue/10 border border-brand-blue/20 text-brand-blue text-xs font-bold uppercase tracking-widest mb-8">
               <Zap size={14} /> Inteligência Jurídica em Tempo Real
             </span>
             <h1 className="text-5xl md:text-7xl font-extrabold text-white tracking-tight leading-[1.1] mb-8 max-w-5xl mx-auto">
-              Uma ideia genial sem registro é apenas um <span className="text-brand-accent">presente para o seu concorrente.</span>
+              Uma ideia genial sem registro é apenas um <span className="text-brand-gold">presente para o seu concorrente.</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed">
               Protegendo o futuro das suas ideias. Garantimos segurança jurídica total para que você foque apenas em crescer, sem o medo de ser copiado.
@@ -217,12 +217,12 @@ Interesse: ${formData.interest}`;
                 href="https://wa.me/5511937201963?text=Vim%20pelo%20site%20e%20tenho%20uma%20d%C3%BAvida" 
                 target="_blank" 
                 rel="noreferrer"
-                className="animate-pulse-soft bg-brand-main hover:bg-brand-main/90 text-white px-10 py-5 rounded-2xl font-black text-xl transition-all glow-main group flex items-center gap-3"
+                className="animate-pulse-soft bg-brand-blue hover:bg-brand-blue/90 text-white px-10 py-5 rounded-2xl font-black text-xl transition-all glow-blue group flex items-center gap-3"
               >
                 <Search className="group-hover:rotate-12 transition-transform" />
                 Fazer Busca Gratuita de Disponibilidade
               </a>
-              <button className="bg-transparent hover:bg-white/5 text-white px-10 py-5 rounded-2xl font-bold text-xl border border-white/20 transition-all flex items-center gap-2 text-brand-accent border-brand-accent/20">
+              <button className="bg-transparent hover:bg-white/5 text-white px-10 py-5 rounded-2xl font-bold text-xl border border-white/20 transition-all flex items-center gap-2 text-brand-gold border-brand-gold/20">
                 Ver Planos
               </button>
             </div>
@@ -240,7 +240,7 @@ Interesse: ${formData.interest}`;
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Por que o Tempo é seu Pior Inimigo?</h2>
-            <div className="h-1.5 w-24 bg-brand-main mx-auto rounded-full"></div>
+            <div className="h-1.5 w-24 bg-brand-blue mx-auto rounded-full"></div>
           </div>
           
           <motion.div 
@@ -264,7 +264,7 @@ Interesse: ${formData.interest}`;
                 highlight: "Prejuízo evitado com InovaShield"
               },
               {
-                icon: <Globe className="text-brand-main" />,
+                icon: <Globe className="text-brand-blue" />,
                 title: "Domínio Público",
                 desc: "Sem patente, sua invenção não tem dono. Em 12 meses de exposição pública sem pedido, sua ideia torna-se de todos.",
                 highlight: "Proteja enquanto há tempo"
@@ -273,10 +273,10 @@ Interesse: ${formData.interest}`;
               <motion.div 
                 key={idx} 
                 variants={itemVariants}
-                className="glass p-8 rounded-3xl group hover:border-brand-main/50 transition-all duration-500 overflow-hidden relative"
+                className="glass p-8 rounded-3xl group hover:border-brand-blue/50 transition-all duration-500 overflow-hidden relative"
               >
                 <div className="absolute top-0 right-0 p-4 bg-white/5 rounded-bl-3xl opacity-0 group-hover:opacity-100 transition-opacity">
-                  <CheckCircle2 className="text-brand-main" />
+                  <CheckCircle2 className="text-brand-blue" />
                 </div>
                 <div className="bg-white/5 w-14 h-14 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                   {card.icon}
@@ -294,24 +294,24 @@ Interesse: ${formData.interest}`;
 
       {/* Stats Board for Engagement */}
       <section className="py-16 px-4">
-        <div className="max-w-7xl mx-auto bg-brand-main rounded-[3rem] p-12 text-center text-white relative overflow-hidden group">
-          <div className="absolute inset-0 bg-gradient-to-r from-brand-main to-[#4c0519] opacity-50"></div>
+        <div className="max-w-7xl mx-auto bg-brand-blue rounded-[3rem] p-12 text-center text-white relative overflow-hidden group">
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-blue to-blue-900 opacity-50"></div>
           <div className="relative z-10 grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
               <p className="text-4xl font-black mb-2">+15.000</p>
-              <p className="text-red-100 text-sm font-bold uppercase tracking-widest">Marcas Protegidas</p>
+              <p className="text-blue-100 text-sm font-bold uppercase tracking-widest">Marcas Protegidas</p>
             </div>
             <div>
               <p className="text-4xl font-black mb-2">99.2%</p>
-              <p className="text-red-100 text-sm font-bold uppercase tracking-widest">Taxa de Sucesso</p>
+              <p className="text-blue-100 text-sm font-bold uppercase tracking-widest">Taxa de Sucesso</p>
             </div>
             <div>
               <p className="text-4xl font-black mb-2">R$ 2Bi+</p>
-              <p className="text-red-100 text-sm font-bold uppercase tracking-widest">Valuation Blindado</p>
+              <p className="text-blue-100 text-sm font-bold uppercase tracking-widest">Valuation Blindado</p>
             </div>
             <div>
               <p className="text-4xl font-black mb-2">24h</p>
-              <p className="text-red-100 text-sm font-bold uppercase tracking-widest">Tempo de Resposta</p>
+              <p className="text-blue-100 text-sm font-bold uppercase tracking-widest">Tempo de Resposta</p>
             </div>
           </div>
         </div>
@@ -322,7 +322,7 @@ Interesse: ${formData.interest}`;
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
             <div className="text-left">
-              <span className="text-brand-main font-bold text-sm tracking-widest uppercase mb-2 block">Nosso Portfolio de Proteção</span>
+              <span className="text-brand-blue font-bold text-sm tracking-widest uppercase mb-2 block">Nosso Portfolio de Proteção</span>
               <h2 className="text-4xl md:text-5xl font-extrabold text-white">Segurança 360º para seu Ativo</h2>
             </div>
             <p className="text-gray-400 max-w-md text-lg">
@@ -338,7 +338,7 @@ Interesse: ${formData.interest}`;
               { icon: <FileText />, name: "Direitos Autorais", desc: "Obras artísticas, textos e design exclusivo." }
             ].map((service, idx) => (
               <div key={idx} className="glass p-8 rounded-3xl hover:bg-white/[0.05] transition-all cursor-pointer border-transparent group">
-                <div className="text-brand-main mb-6 group-hover:scale-125 transition-transform origin-left">{service.icon}</div>
+                <div className="text-brand-blue mb-6 group-hover:scale-125 transition-transform origin-left">{service.icon}</div>
                 <h4 className="text-xl font-bold text-white mb-3">{service.name}</h4>
                 <p className="text-gray-400 text-sm">{service.desc}</p>
               </div>
@@ -348,7 +348,7 @@ Interesse: ${formData.interest}`;
       </section>
 
       {/* Social Proof */}
-      <section id="proof" className="py-24 px-4 bg-brand-main/5">
+      <section id="proof" className="py-24 px-4 bg-brand-blue/5">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-16 italic">"A InovaShield transformou nosso maior risco em nosso maior ativo de valuation."</h2>
           
@@ -379,12 +379,12 @@ Interesse: ${formData.interest}`;
                 className="bg-white/[0.02] border border-white/10 p-8 rounded-3xl text-left"
               >
                 <div className="flex gap-1 mb-4">
-                  {[...Array(testimony.stars)].map((_, i) => <Star key={i} size={16} className="fill-brand-accent text-brand-accent" />)}
+                  {[...Array(testimony.stars)].map((_, i) => <Star key={i} size={16} className="fill-brand-gold text-brand-gold" />)}
                 </div>
                 <p className="text-gray-300 mb-6 italic">"{testimony.text}"</p>
                 <div>
                   <p className="text-white font-bold">{testimony.name}</p>
-                  <p className="text-brand-main text-sm">{testimony.role}</p>
+                  <p className="text-brand-blue text-sm">{testimony.role}</p>
                 </div>
               </motion.div>
             ))}
@@ -407,13 +407,13 @@ Interesse: ${formData.interest}`;
 
       {/* Final CTA & Contact Form */}
       <section id="contact" className="py-24 px-4 relative overflow-hidden">
-        <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-brand-main/5 rounded-full blur-[100px] pointer-events-none"></div>
+        <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-brand-blue/5 rounded-full blur-[100px] pointer-events-none"></div>
         
         <div className="max-w-7xl mx-auto">
           <div className="glass rounded-[40px] p-8 md:p-16 flex flex-col lg:flex-row gap-12 items-center">
             <div className="lg:w-1/2">
               <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
-                O seu maior ativo é a sua criatividade. <span className="text-brand-main">Não deixe que ela vire lucro de outra pessoa.</span>
+                O seu maior ativo é a sua criatividade. <span className="text-brand-blue">Não deixe que ela vire lucro de outra pessoa.</span>
               </h2>
               <p className="text-xl text-gray-400 mb-8">
                 Preencha o formulário e receba um diagnóstico gratuito da sua propriedade intelectual em menos de 24 horas.
@@ -429,8 +429,8 @@ Interesse: ${formData.interest}`;
                   Acompanhamento Jurídico em Tempo Real
                 </li>
                 <li className="flex items-center gap-3 text-gray-300">
-                  <div className="bg-brand-main/20 p-1 rounded-full"><Zap className="text-brand-main w-5 h-5" /></div>
-                  Protocolo InovaShield: Rapidez & Precisão
+                  <div className="bg-brand-blue/20 p-1 rounded-full"><Zap className="text-brand-blue w-5 h-5" /></div>
+                  Protocolo InovaShield: Rapidez & Precão
                 </li>
               </ul>
             </div>
@@ -443,11 +443,11 @@ Interesse: ${formData.interest}`;
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-4 border-t border-white/5 bg-[#0a0101]">
+      <footer className="py-12 px-4 border-t border-white/5 bg-[#010309]">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
           <div className="space-y-6">
             <div className="flex items-center space-x-2">
-              <div className="bg-brand-main p-2 rounded-lg">
+              <div className="bg-brand-blue p-2 rounded-lg">
                 <ShieldCheck className="text-white w-6 h-6" />
               </div>
               <span className="text-2xl font-extrabold tracking-tighter text-white">InovaShield</span>
@@ -460,7 +460,7 @@ Interesse: ${formData.interest}`;
           <div className="space-y-4">
             <h5 className="text-white font-bold">Contato Direto</h5>
             <div className="space-y-3">
-              <a href="mailto:rubinho@rubenspi.com.br" className="flex items-center gap-3 text-gray-400 hover:text-brand-main transition-colors text-sm">
+              <a href="mailto:rubinho@rubenspi.com.br" className="flex items-center gap-3 text-gray-400 hover:text-brand-blue transition-colors text-sm">
                 <div className="bg-white/5 p-2 rounded-lg">@</div>
                 rubinho@rubenspi.com.br
               </a>
