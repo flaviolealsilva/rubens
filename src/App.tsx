@@ -228,7 +228,7 @@ Interesse: ${formData.interest}`;
             </div>
             
             <div className="mt-12 flex items-center justify-center gap-8 grayscale opacity-50">
-              <img src="https://p7.hiclipart.com/preview/130/44/1019/world-intellectual-property-organization-trademark-patent-attorney-others-thumbnail.jpg" alt="WIPO" className="h-8 invert" />
+              <img src="https://vectorseek.com/wp-content/uploads/2023/09/Wipo-World-Intellectual-Property-Organization-Logo-Vector.svg-.png" alt="WIPO" className="h-8 invert" />
               <img src="https://iconape.com/wp-content/png_logo_vector/inpi-brasil-logo.png" alt="INPI" className="h-6 invert" />
             </div>
           </motion.div>
