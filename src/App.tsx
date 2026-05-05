@@ -139,7 +139,7 @@ Interesse: ${formData.interest}`;
                 <ShieldCheck className="text-white w-6 h-6" />
               </div>
               <span className="text-2xl font-extrabold tracking-tighter text-white">
-                TALENT
+                InovaShield
               </span>
             </div>
             
@@ -182,7 +182,7 @@ Interesse: ${formData.interest}`;
               href="https://wa.me/5511937201963?text=Vim%20pelo%20site%20e%20tenho%20uma%20d%C3%BAvida" 
               target="_blank" 
               rel="noreferrer"
-              className="w-full bg-brand-blue text-white py-4 rounded-xl font-bold text-center block"
+              className="w-full bg-brand-main text-white py-4 rounded-xl font-bold text-center block"
             >
               Proteger Minha Ideia Agora
             </a>
@@ -209,7 +209,7 @@ Interesse: ${formData.interest}`;
               Uma ideia genial sem registro é apenas um <span className="text-brand-accent">presente para o seu concorrente.</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed">
-              Proteja sua marca, software ou patente hoje. Garantimos segurança jurídica total para que você foque apenas em crescer, sem o medo de ser copiado.
+              Protegendo o futuro das suas ideias. Garantimos segurança jurídica total para que você foque apenas em crescer, sem o medo de ser copiado.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -261,7 +261,7 @@ Interesse: ${formData.interest}`;
                 icon: <AlertTriangle className="text-red-500" />,
                 title: "Casos Históricos",
                 desc: "A Apple pagou US$ 60 milhões para usar a marca 'iPad' na China por não ter garantido o registro global corretamente.",
-                highlight: "Prejuízo evitado com Protege.AI"
+                highlight: "Prejuízo evitado com InovaShield"
               },
               {
                 icon: <Globe className="text-brand-main" />,
@@ -350,14 +350,14 @@ Interesse: ${formData.interest}`;
       {/* Social Proof */}
       <section id="proof" className="py-24 px-4 bg-brand-main/5">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-white mb-16 italic">"A TALENT transformou nosso maior risco em nosso maior ativo de valuation."</h2>
+          <h2 className="text-3xl font-bold text-white mb-16 italic">"A InovaShield transformou nosso maior risco em nosso maior ativo de valuation."</h2>
           
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
                 name: "Lucas Almeida",
                 role: "CEO na TechNova",
-                text: "Estávamos sendo copiados por uma gigante asiática. Graças ao registro ágil da Protege.AI, vencemos a disputa judicial.",
+                text: "Estávamos sendo copiados por uma gigante asiática. Graças ao registro ágil da InovaShield, vencemos a disputa judicial.",
                 stars: 5
               },
               {
@@ -430,7 +430,7 @@ Interesse: ${formData.interest}`;
                 </li>
                 <li className="flex items-center gap-3 text-gray-300">
                   <div className="bg-brand-main/20 p-1 rounded-full"><Zap className="text-brand-main w-5 h-5" /></div>
-                  Protocolo TALENT: Rapidez & Precisão
+                  Protocolo InovaShield: Rapidez & Precisão
                 </li>
               </ul>
             </div>
@@ -450,7 +450,7 @@ Interesse: ${formData.interest}`;
               <div className="bg-brand-main p-2 rounded-lg">
                 <ShieldCheck className="text-white w-6 h-6" />
               </div>
-              <span className="text-2xl font-extrabold tracking-tighter text-white">TALENT</span>
+              <span className="text-2xl font-extrabold tracking-tighter text-white">InovaShield</span>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed max-w-xs">
               Liderança e excelência em Propriedade Intelectual. Protegemos o que você tem de mais valioso: seu talento e sua inovação.
@@ -460,9 +460,9 @@ Interesse: ${formData.interest}`;
           <div className="space-y-4">
             <h5 className="text-white font-bold">Contato Direto</h5>
             <div className="space-y-3">
-              <a href="mailto:contato@talentpi.com.br" className="flex items-center gap-3 text-gray-400 hover:text-brand-main transition-colors text-sm">
+              <a href="mailto:rubinho@rubenspi.com.br" className="flex items-center gap-3 text-gray-400 hover:text-brand-main transition-colors text-sm">
                 <div className="bg-white/5 p-2 rounded-lg">@</div>
-                contato@talentpi.com.br
+                rubinho@rubenspi.com.br
               </a>
               <div className="flex items-center gap-3 text-gray-400 text-sm">
                 <div className="bg-white/5 p-2 rounded-lg">
@@ -487,7 +487,7 @@ Interesse: ${formData.interest}`;
           </div>
         </div>
         <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-white/5 text-center text-gray-600 text-xs">
-          © 2026 TALENT - Propriedade Intelectual. Todos os direitos reservados.
+          © 2026 InovaShield - Propriedade Intelectual. Todos os direitos reservados.
         </div>
       </footer>
     </div>
